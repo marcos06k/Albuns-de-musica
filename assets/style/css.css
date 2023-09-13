@@ -1,0 +1,64 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+}
+.menu_bar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to left, rgb(17, 2, 87), rgb(15, 4, 131));
+}
+
+.itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+li{
+     list-style-type: none;
+     margin: 5px;
+     padding: 3px;
+}
+a {
+    color: aliceblue; 
+    text-decoration: none;
+}
+
+.painel_artistas_brasileiros{
+    
+    background-image: linear-gradient(to right, rgb(10, 0, 143), rgb(12, 5, 98));
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.divs_artistas{
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 9% 3% 9% 3%;
+    width: 200px;
+}
+
+.painel_artistas_Internacionais{
+    background-image: linear-gradient(to left, rgb(10, 0, 143), rgb(12, 5, 98));
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
